@@ -1,0 +1,27 @@
+@mixin prime {
+    margin-top: 54px;
+    width: 350px;
+    margin-bottom: 54px;
+}
+
+@mixin goflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+@mixin head6 {
+    color: $bcolor;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@mixin head2 {
+    color: black;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 56px;
+}
+
